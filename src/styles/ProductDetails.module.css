@@ -1,0 +1,119 @@
+.page {
+    background: linear-gradient(135deg, #1a1a1a, #292929);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+
+  .container {
+    display: flex;
+    gap: 2rem;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    align-items: flex-start;
+  }
+  
+  .imageSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .productImage:hover {
+    transform: scale(1.05);
+  }
+  
+  .detailsSection {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .productName {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+  
+  .productPrice {
+    font-size: 1.8rem;
+    color: #00ffa3;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 255, 163, 0.5);
+  }
+  
+  .productCreator,
+  .productDescription {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d1d1d1;
+  }
+  
+  .specifications h2,
+  .reviews h2 {
+    font-size: 1.5rem;
+    color: #00d1ff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 10px rgba(0, 209, 255, 0.5);
+  }
+  
+  .specifications ul,
+  .reviews ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .specifications li,
+  .reviews li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .backButton {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #00d1ff, #0070f3);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 209, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  .backButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 209, 255, 0.8);
+  }
+  
+  .notFound {
+    color: #ff4f4f;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
